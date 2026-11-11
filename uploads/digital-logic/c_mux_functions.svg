@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="none" stroke="#1e40af"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei,Arial" font-size="20" fill="#172554" stroke-width="2">
+<text x="30" y="35" font-size="25">MUX函数配置与卡诺图（Gray列序）</text>
+<rect x="50" y="80" width="510" height="150" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="64" y="110" font-size="20">8选1全加器：选择=A,B,Cin</text>
+<text x="64" y="137" font-size="20">和：D[0…7]=0,1,1,0,1,0,0,1</text>
+<text x="64" y="164" font-size="20">进位：D[0…7]=0,0,0,1,0,1,1,1</text>
+<text x="64" y="191" font-size="20">两通道低有效使能均接0</text>
+<rect x="620" y="80" width="530" height="150" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="634" y="110" font-size="20">4选1求和：选择=A,B</text>
+<text x="634" y="137" font-size="20">D0=Cin，D1=NOT Cin</text>
+<text x="634" y="164" font-size="20">D2=NOT Cin，D3=Cin</text>
+<text x="50" y="290" font-size="20">全加器和：行Cin，列AB</text>
+<text x="150" y="330" font-size="20">00</text>
+<text x="250" y="330" font-size="20">01</text>
+<text x="350" y="330" font-size="20">11</text>
+<text x="450" y="330" font-size="20">10</text>
+<text x="50" y="380" font-size="20">0</text>
+<rect x="120" y="345" width="100" height="60" fill="white" stroke="#64748b"/>
+<text x="160" y="385" font-size="20">0</text>
+<rect x="220" y="345" width="100" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="260" y="385" font-size="20">1</text>
+<rect x="320" y="345" width="100" height="60" fill="white" stroke="#64748b"/>
+<text x="360" y="385" font-size="20">0</text>
+<rect x="420" y="345" width="100" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="460" y="385" font-size="20">1</text>
+<text x="50" y="440" font-size="20">1</text>
+<rect x="120" y="405" width="100" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="160" y="445" font-size="20">1</text>
+<rect x="220" y="405" width="100" height="60" fill="white" stroke="#64748b"/>
+<text x="260" y="445" font-size="20">0</text>
+<rect x="320" y="405" width="100" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="360" y="445" font-size="20">1</text>
+<rect x="420" y="405" width="100" height="60" fill="white" stroke="#64748b"/>
+<text x="460" y="445" font-size="20">0</text>
+<text x="620" y="290" font-size="20">四变量F：行CD，列AB</text>
+<text x="720" y="330" font-size="20">00</text>
+<text x="820" y="330" font-size="20">01</text>
+<text x="920" y="330" font-size="20">11</text>
+<text x="1020" y="330" font-size="20">10</text>
+<text x="620" y="380" font-size="20">00</text>
+<rect x="690" y="345" width="100" height="60" fill="white" stroke="#64748b"/>
+<text x="730" y="385" font-size="20">0</text>
+<rect x="790" y="345" width="100" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="830" y="385" font-size="20">1</text>
+<rect x="890" y="345" width="100" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="930" y="385" font-size="20">1</text>
+<rect x="990" y="345" width="100" height="60" fill="white" stroke="#64748b"/>
+<text x="1030" y="385" font-size="20">0</text>
+<text x="620" y="440" font-size="20">01</text>
+<rect x="690" y="405" width="100" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="730" y="445" font-size="20">1</text>
+<rect x="790" y="405" width="100" height="60" fill="white" stroke="#64748b"/>
+<text x="830" y="445" font-size="20">0</text>
+<rect x="890" y="405" width="100" height="60" fill="white" stroke="#64748b"/>
+<text x="930" y="445" font-size="20">0</text>
+<rect x="990" y="405" width="100" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="1030" y="445" font-size="20">1</text>
+<text x="620" y="500" font-size="20">11</text>
+<rect x="690" y="465" width="100" height="60" fill="white" stroke="#64748b"/>
+<text x="730" y="505" font-size="20">0</text>
+<rect x="790" y="465" width="100" height="60" fill="white" stroke="#64748b"/>
+<text x="830" y="505" font-size="20">0</text>
+<rect x="890" y="465" width="100" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="930" y="505" font-size="20">1</text>
+<rect x="990" y="465" width="100" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="1030" y="505" font-size="20">1</text>
+<text x="620" y="560" font-size="20">10</text>
+<rect x="690" y="525" width="100" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="730" y="565" font-size="20">1</text>
+<rect x="790" y="525" width="100" height="60" fill="white" stroke="#64748b"/>
+<text x="830" y="565" font-size="20">0</text>
+<rect x="890" y="525" width="100" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="930" y="565" font-size="20">1</text>
+<rect x="990" y="525" width="100" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="1030" y="565" font-size="20">1</text>
+<text x="50" y="640" font-size="20">四变量例：D0=¬C·D+C·¬D，D1=¬C·¬D，D2=C+D，D3=C+¬D</text>
+<text x="50" y="695" font-size="20">P=A·¬C+¬A·C+¬B：8选1数据D[0…7]=1,1,0,1,1,1,1,0</text>
+<text x="50" y="750" font-size="20">选择题G1G0=01：A=0选D2=B；A=1选D3=¬B → Y=A⊕B</text>
+</g></svg>

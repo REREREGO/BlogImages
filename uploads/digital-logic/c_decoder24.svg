@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520"><defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="none" stroke="#1e40af"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei,Arial" font-size="20" fill="#172554" stroke-width="2">
+<text x="30" y="35" font-size="25">2—4译码器：每条输出对应一个最小项</text>
+<text x="40" y="85" font-size="20">输入预先形成 A1、NOT A1、A0、NOT A0</text>
+<rect x="130" y="135" width="330" height="55" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="144" y="165" font-size="20">mi=¬A1·¬A0</text>
+<rect x="550" y="135" width="220" height="55" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="564" y="165" font-size="20">AND：E·mi</text>
+<rect x="900" y="135" width="250" height="55" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="914" y="165" font-size="20">NAND：¬(¬en·mi)</text>
+<path d="M460 162L550 162" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<path d="M770 162L820 162" fill="none" stroke="#1e40af" />
+<text x="790" y="190" font-size="16">Yi</text>
+<path d="M460 162L485 162" fill="none" stroke="#1e40af" />
+<polyline points="485,162 485,198 880,198 880,162 900,162" fill="none" stroke="#1e40af"/>
+<rect x="130" y="220" width="330" height="55" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="144" y="250" font-size="20">mi=¬A1·A0</text>
+<rect x="550" y="220" width="220" height="55" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="564" y="250" font-size="20">AND：E·mi</text>
+<rect x="900" y="220" width="250" height="55" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="914" y="250" font-size="20">NAND：¬(¬en·mi)</text>
+<path d="M460 247L550 247" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<path d="M770 247L820 247" fill="none" stroke="#1e40af" />
+<text x="790" y="275" font-size="16">Yi</text>
+<path d="M460 247L485 247" fill="none" stroke="#1e40af" />
+<polyline points="485,247 485,283 880,283 880,247 900,247" fill="none" stroke="#1e40af"/>
+<rect x="130" y="305" width="330" height="55" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="144" y="335" font-size="20">mi=A1·¬A0</text>
+<rect x="550" y="305" width="220" height="55" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="564" y="335" font-size="20">AND：E·mi</text>
+<rect x="900" y="305" width="250" height="55" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="914" y="335" font-size="20">NAND：¬(¬en·mi)</text>
+<path d="M460 332L550 332" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<path d="M770 332L820 332" fill="none" stroke="#1e40af" />
+<text x="790" y="360" font-size="16">Yi</text>
+<path d="M460 332L485 332" fill="none" stroke="#1e40af" />
+<polyline points="485,332 485,368 880,368 880,332 900,332" fill="none" stroke="#1e40af"/>
+<rect x="130" y="390" width="330" height="55" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="144" y="420" font-size="20">mi=A1·A0</text>
+<rect x="550" y="390" width="220" height="55" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="564" y="420" font-size="20">AND：E·mi</text>
+<rect x="900" y="390" width="250" height="55" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="914" y="420" font-size="20">NAND：¬(¬en·mi)</text>
+<path d="M460 417L550 417" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<path d="M770 417L820 417" fill="none" stroke="#1e40af" />
+<text x="790" y="445" font-size="16">Yi</text>
+<path d="M460 417L485 417" fill="none" stroke="#1e40af" />
+<polyline points="485,417 485,453 880,453 880,417 900,417" fill="none" stroke="#1e40af"/>
+<text x="550" y="110" font-size="20">高有效输出：E=1使能</text>
+<text x="875" y="110" font-size="20">低有效输出：en=0使能</text>
+</g></svg>

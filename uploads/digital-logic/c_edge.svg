@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500"><defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="none" stroke="#1e40af"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei,Arial" font-size="20" fill="#172554" stroke-width="2">
+<text x="30" y="35" font-size="25">边沿D触发器：异步低有效置位/复位与时钟极性</text>
+<rect x="150" y="100" width="230" height="270" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="164" y="130" font-size="20">D触发器</text>
+<text x="40" y="160" font-size="20">SD_n</text>
+<path d="M105 155L150 155" fill="none" stroke="#1e40af" />
+<circle cx="145" cy="155" r="5" fill="white" stroke="#1e40af"/>
+<text x="40" y="215" font-size="20">D</text>
+<path d="M105 210L150 210" fill="none" stroke="#1e40af" />
+<text x="40" y="270" font-size="20">CLK</text>
+<path d="M105 265L150 265" fill="none" stroke="#1e40af" />
+<path d="M150 255L165 265L150 275" fill="none" stroke="#1e40af"/>
+<text x="40" y="325" font-size="20">RD_n</text>
+<path d="M105 320L150 320" fill="none" stroke="#1e40af" />
+<circle cx="145" cy="320" r="5" fill="white" stroke="#1e40af"/>
+<path d="M380 180L440 180" fill="none" stroke="#1e40af" />
+<text x="450" y="185" font-size="20">Q</text>
+<path d="M380 290L440 290" fill="none" stroke="#1e40af" />
+<text x="450" y="295" font-size="20">Q̅</text>
+<text x="150" y="420" font-size="20">上升沿触发：三角形</text>
+<rect x="740" y="100" width="230" height="270" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="754" y="130" font-size="20">D触发器</text>
+<text x="630" y="160" font-size="20">SD_n</text>
+<path d="M695 155L740 155" fill="none" stroke="#1e40af" />
+<circle cx="735" cy="155" r="5" fill="white" stroke="#1e40af"/>
+<text x="630" y="215" font-size="20">D</text>
+<path d="M695 210L740 210" fill="none" stroke="#1e40af" />
+<text x="630" y="270" font-size="20">CLK</text>
+<path d="M695 265L740 265" fill="none" stroke="#1e40af" />
+<circle cx="735" cy="265" r="5" fill="white" stroke="#1e40af"/>
+<path d="M740 255L755 265L740 275" fill="none" stroke="#1e40af"/>
+<text x="630" y="325" font-size="20">RD_n</text>
+<path d="M695 320L740 320" fill="none" stroke="#1e40af" />
+<circle cx="735" cy="320" r="5" fill="white" stroke="#1e40af"/>
+<path d="M970 180L1030 180" fill="none" stroke="#1e40af" />
+<text x="1040" y="185" font-size="20">Q</text>
+<path d="M970 290L1030 290" fill="none" stroke="#1e40af" />
+<text x="1040" y="295" font-size="20">Q̅</text>
+<text x="740" y="420" font-size="20">下降沿触发：圆圈 + 三角形</text>
+<text x="65" y="475" font-size="20">SD_n=0异步置1；RD_n=0异步置0；两者均为1时按指定边沿采样D。</text>
+</g></svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650"><defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="none" stroke="#1e40af"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei,Arial" font-size="20" fill="#172554" stroke-width="2">
+<text x="30" y="35" font-size="25">MUX扩展：2个n选1构成2n选1（n=4或8）</text>
+<rect x="70" y="100" width="340" height="130" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="84" y="130" font-size="20">低组MUX</text>
+<text x="84" y="157" font-size="20">数据D0…D(n−1)</text>
+<text x="84" y="184" font-size="20">低有效使能=H</text>
+<rect x="70" y="350" width="340" height="130" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="84" y="380" font-size="20">高组MUX</text>
+<text x="84" y="407" font-size="20">数据Dn…D(2n−1)</text>
+<text x="84" y="434" font-size="20">低有效使能=NOT H</text>
+<rect x="650" y="200" width="150" height="100" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="664" y="230" font-size="20">OR</text>
+<polyline points="410,150 540,150 540,230 650,230" fill="none" stroke="#1e40af"/>
+<polyline points="410,410 540,410 540,270 650,270" fill="none" stroke="#1e40af"/>
+<path d="M800 250L990 250" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<text x="1010" y="255" font-size="20">F</text>
+<text x="650" y="370" font-size="20">方法1：互补使能，禁用输出为0</text>
+<text x="650" y="410" font-size="20">两组共享低位选择地址</text>
+<text x="80" y="560" font-size="20">方法2：两组使能均接0，输出接额外2选1；H作为末级2选1地址。</text>
+<text x="80" y="605" font-size="20">n=4时H=A2，n=8时H=A3；不能把禁用为高阻的器件直接套入OR方案。</text>
+</g></svg>

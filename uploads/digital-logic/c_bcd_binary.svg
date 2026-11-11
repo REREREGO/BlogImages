@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="510" viewBox="0 0 1200 510"><defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="none" stroke="#1e40af"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei,Arial" font-size="20" fill="#172554" stroke-width="2">
+<text x="30" y="35" font-size="25">两位BCD转二进制：两个四位加法器的接线表</text>
+<rect x="60" y="100" width="500" height="180" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="74" y="130" font-size="20">加法器1</text>
+<text x="74" y="157" font-size="20">A4…A1=D80,D40,D20,D10</text>
+<text x="74" y="184" font-size="20">B4…B1=D20,D8,D4,D2</text>
+<text x="74" y="211" font-size="20">Cin=0；和=s4,s3,s2,s1；进位=c</text>
+<rect x="650" y="100" width="500" height="180" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="664" y="130" font-size="20">加法器2</text>
+<text x="664" y="157" font-size="20">A4…A1=D80,D40,0,D10</text>
+<text x="664" y="184" font-size="20">B4…B1=0,c,s4,s3</text>
+<text x="664" y="211" font-size="20">Cin=0；和=B6,B5,B4,B3</text>
+<path d="M560 210L650 210" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<text x="400" y="330" font-size="20">s1→B1，s2→B2；D1直接→B0</text>
+<text x="70" y="390" font-size="20">数值关系：B=10×T+U=(T&lt;&lt;3)+(T&lt;&lt;1)+U，T,U为0—9。</text>
+<text x="70" y="450" font-size="20">总线中的每一位已按高位至低位明确标注；不是把第一片的全部和直接串给第二片。</text>
+</g></svg>

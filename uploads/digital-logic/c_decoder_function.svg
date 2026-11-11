@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650"><defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="none" stroke="#1e40af"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei,Arial" font-size="20" fill="#172554" stroke-width="2">
+<text x="30" y="35" font-size="25">74138函数发生器与地址片选</text>
+<rect x="100" y="100" width="370" height="170" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="114" y="130" font-size="20">74138</text>
+<text x="114" y="157" font-size="20">地址=A,B,C</text>
+<text x="114" y="184" font-size="20">G1=1，G2A_n=D，G2B_n=D</text>
+<text x="114" y="211" font-size="20">低有效输出Y1…Y7</text>
+<rect x="700" y="135" width="180" height="80" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="714" y="165" font-size="20">7输入NAND</text>
+<path d="M470 180L700 180" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<path d="M880 175L1020 175" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<text x="1040" y="180" font-size="20">F</text>
+<text x="520" y="280" font-size="20">F=NOT D·(A+B+C)</text>
+<rect x="70" y="370" width="270" height="150" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="84" y="400" font-size="20">微处理器</text>
+<text x="84" y="427" font-size="20">地址A15,A14,A13</text>
+<text x="84" y="454" font-size="20">数据D0…D7</text>
+<rect x="450" y="370" width="250" height="150" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="464" y="400" font-size="20">74138</text>
+<text x="464" y="427" font-size="20">高三位地址译码</text>
+<text x="464" y="454" font-size="20">使能=1,0,0</text>
+<path d="M340 415L450 415" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<rect x="850" y="350" width="250" height="65" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="864" y="380" font-size="20">外设1：CS_n=Y0</text>
+<path d="M700 400L850 382" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<rect x="850" y="440" width="250" height="65" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="864" y="470" font-size="20">外设2：CS_n=Y1</text>
+<path d="M700 435L850 472" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<rect x="850" y="530" width="250" height="65" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="864" y="560" font-size="20">外设8：CS_n=Y7</text>
+<path d="M700 470L850 562" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<polyline points="200,520 200,620 1150,620 1150,380" fill="none" stroke="#1e40af"/>
+<text x="410" y="610" font-size="20">8位数据总线共享；低位地址供片内寻址</text>
+</g></svg>

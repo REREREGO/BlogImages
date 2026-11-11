@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450"><defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="none" stroke="#1e40af"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei,Arial" font-size="20" fill="#172554" stroke-width="2">
+<text x="30" y="35" font-size="25">余3码加法：相加后由进位决定修正</text>
+<rect x="100" y="110" width="270" height="140" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="114" y="140" font-size="20">加法器1</text>
+<text x="114" y="167" font-size="20">A=余3码1</text>
+<text x="114" y="194" font-size="20">B=余3码2，Cin=0</text>
+<rect x="720" y="110" width="330" height="160" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="734" y="140" font-size="20">加法器2（修正）</text>
+<text x="734" y="167" font-size="20">A=s3s2s1s0</text>
+<text x="734" y="194" font-size="20">B=0011 XOR {4×NOT c}</text>
+<text x="734" y="221" font-size="20">Cin=NOT c</text>
+<path d="M370 145L720 145" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<text x="450" y="125" font-size="20">低四位s</text>
+<path d="M1050 145L1150 145" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<text x="1060" y="190" font-size="20">余3码结果</text>
+<polyline points="370,220 450,220 450,340 1130,340" fill="none" stroke="#1e40af"/>
+<text x="480" y="330" font-size="20">第一片进位 c → 十进制进位</text>
+<rect x="510" y="215" width="130" height="70" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="524" y="245" font-size="20">NOT</text>
+<path d="M450 250L510 250" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<polyline points="640,250 680,250 680,230 720,230" fill="none" stroke="#1e40af"/>
+<text x="80" y="410" font-size="20">c=0：加1100再加进位1，即减3；c=1：加0011，即加3。</text>
+</g></svg>

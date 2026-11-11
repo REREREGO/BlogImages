@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610"><defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="none" stroke="#1e40af"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei,Arial" font-size="20" fill="#172554" stroke-width="2">
+<text x="30" y="35" font-size="25">交叉耦合RS锁存器（明确门类型与端有效电平）</text>
+<rect x="100" y="125" width="170" height="90" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="114" y="155" font-size="20">NAND</text>
+<rect x="490" y="125" width="170" height="90" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="504" y="155" font-size="20">NAND</text>
+<path d="M270 155L310 155" fill="none" stroke="#1e40af" />
+<polyline points="310,155 345,155 415,275 490,275 490,190" fill="none" stroke="#1e40af"/>
+<path d="M660 155L700 155" fill="none" stroke="#1e40af" />
+<polyline points="700,155 720,155 720,90 70,90 70,190 100,190" fill="none" stroke="#1e40af"/>
+<text x="280" y="145" font-size="20">Q̅</text>
+<text x="670" y="145" font-size="20">Q</text>
+<text x="85" y="265" font-size="20">rn（低有效）</text>
+<path d="M150 250L150 215" fill="none" stroke="#1e40af" />
+<text x="520" y="265" font-size="20">sn（低有效）</text>
+<path d="M550 250L550 215" fill="none" stroke="#1e40af" />
+<text x="770" y="150" font-size="20">rn=0：Q=0</text>
+<text x="770" y="195" font-size="20">sn=0：Q=1</text>
+<text x="770" y="240" font-size="20">rn=sn=0：禁止</text>
+<text x="90" y="350" font-size="20">或非门版本用高有效R、S：</text>
+<rect x="100" y="380" width="400" height="100" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="114" y="410" font-size="20">Q = NOR(R,Q̅)</text>
+<text x="114" y="437" font-size="20">Q̅ = NOR(S,Q)</text>
+<text x="580" y="410" font-size="20">R=1置0，S=1置1</text>
+<text x="580" y="455" font-size="20">R=S=0保持，R=S=1禁止</text>
+<text x="90" y="550" font-size="20">低有效NAND与高有效NOR的禁止输入和保持输入恰好相反。</text>
+</g></svg>

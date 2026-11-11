@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1180" viewBox="0 0 1400 1180"><defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="none" stroke="#1e40af"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei,Arial" font-size="20" fill="#172554" stroke-width="2">
+<text x="30" y="35" font-size="25">钟控RS、D、JK、T的门级连接（同名网络相连）</text>
+<text x="35" y="65" font-size="24">钟控RS（CP=1有效）</text>
+<rect x="180" y="110" width="170" height="105" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="194" y="140" font-size="20">NAND</text>
+<text x="55" y="138" font-size="18">R</text>
+<path d="M155 132L180 132" fill="none" stroke="#1e40af" />
+<text x="55" y="168" font-size="18">CP</text>
+<path d="M155 162L180 162" fill="none" stroke="#1e40af" />
+<path d="M350 160L395 160" fill="none" stroke="#1e40af" />
+<text x="405" y="146" font-size="18">rn</text>
+<rect x="180" y="250" width="170" height="105" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="194" y="280" font-size="20">NAND</text>
+<text x="55" y="278" font-size="18">S</text>
+<path d="M155 272L180 272" fill="none" stroke="#1e40af" />
+<text x="55" y="308" font-size="18">CP</text>
+<path d="M155 302L180 302" fill="none" stroke="#1e40af" />
+<path d="M350 300L395 300" fill="none" stroke="#1e40af" />
+<text x="405" y="286" font-size="18">sn</text>
+<rect x="850" y="110" width="170" height="105" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="864" y="140" font-size="20">NAND</text>
+<text x="725" y="138" font-size="18">rn</text>
+<path d="M825 132L850 132" fill="none" stroke="#1e40af" />
+<text x="725" y="168" font-size="18">Q</text>
+<path d="M825 162L850 162" fill="none" stroke="#1e40af" />
+<path d="M1020 160L1065 160" fill="none" stroke="#1e40af" />
+<text x="1075" y="146" font-size="18">Q̅</text>
+<rect x="850" y="250" width="170" height="105" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="864" y="280" font-size="20">NAND</text>
+<text x="725" y="278" font-size="18">sn</text>
+<path d="M825 272L850 272" fill="none" stroke="#1e40af" />
+<text x="725" y="308" font-size="18">Q̅</text>
+<path d="M825 302L850 302" fill="none" stroke="#1e40af" />
+<path d="M1020 300L1065 300" fill="none" stroke="#1e40af" />
+<text x="1075" y="286" font-size="18">Q</text>
+<path d="M395 160L590 160" fill="none" stroke="#1e40af" />
+<text x="465" y="147" font-size="17">→ 右上NAND</text>
+<path d="M395 300L590 300" fill="none" stroke="#1e40af" />
+<text x="465" y="287" font-size="17">→ 右下NAND</text>
+<text x="660" y="385" font-size="18">反馈：Q → 上门第二输入；Q̅ → 下门第二输入</text>
+<text x="35" y="420" font-size="24">钟控D（等价互补驱动重绘）</text>
+<rect x="180" y="465" width="170" height="105" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="194" y="495" font-size="20">NAND</text>
+<text x="55" y="493" font-size="18">D̅</text>
+<path d="M155 487L180 487" fill="none" stroke="#1e40af" />
+<text x="55" y="523" font-size="18">CP</text>
+<path d="M155 517L180 517" fill="none" stroke="#1e40af" />
+<path d="M350 515L395 515" fill="none" stroke="#1e40af" />
+<text x="405" y="501" font-size="18">rn</text>
+<rect x="180" y="605" width="170" height="105" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="194" y="635" font-size="20">NAND</text>
+<text x="55" y="633" font-size="18">D</text>
+<path d="M155 627L180 627" fill="none" stroke="#1e40af" />
+<text x="55" y="663" font-size="18">CP</text>
+<path d="M155 657L180 657" fill="none" stroke="#1e40af" />
+<path d="M350 655L395 655" fill="none" stroke="#1e40af" />
+<text x="405" y="641" font-size="18">sn</text>
+<rect x="850" y="465" width="170" height="105" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="864" y="495" font-size="20">NAND</text>
+<text x="725" y="493" font-size="18">rn</text>
+<path d="M825 487L850 487" fill="none" stroke="#1e40af" />
+<text x="725" y="523" font-size="18">Q</text>
+<path d="M825 517L850 517" fill="none" stroke="#1e40af" />
+<path d="M1020 515L1065 515" fill="none" stroke="#1e40af" />
+<text x="1075" y="501" font-size="18">Q̅</text>
+<rect x="850" y="605" width="170" height="105" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="864" y="635" font-size="20">NAND</text>
+<text x="725" y="633" font-size="18">sn</text>
+<path d="M825 627L850 627" fill="none" stroke="#1e40af" />
+<text x="725" y="663" font-size="18">Q̅</text>
+<path d="M825 657L850 657" fill="none" stroke="#1e40af" />
+<path d="M1020 655L1065 655" fill="none" stroke="#1e40af" />
+<text x="1075" y="641" font-size="18">Q</text>
+<path d="M395 515L590 515" fill="none" stroke="#1e40af" />
+<text x="465" y="502" font-size="17">→ 右上NAND</text>
+<path d="M395 655L590 655" fill="none" stroke="#1e40af" />
+<text x="465" y="642" font-size="17">→ 右下NAND</text>
+<text x="660" y="740" font-size="18">反馈：Q → 上门第二输入；Q̅ → 下门第二输入</text>
+<rect x="450" y="550" width="130" height="65" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="464" y="580" font-size="20">NOT</text>
+<text x="400" y="588" font-size="20">D</text>
+<path d="M420 580L450 580" fill="none" stroke="#1e40af" />
+<path d="M580 580L630 580" fill="none" stroke="#1e40af" />
+<text x="640" y="588" font-size="20">D̅</text>
+<text x="35" y="775" font-size="24">钟控JK；T由J=K=T得到</text>
+<rect x="180" y="820" width="170" height="105" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="194" y="850" font-size="20">NAND</text>
+<text x="55" y="848" font-size="18">K</text>
+<path d="M155 842L180 842" fill="none" stroke="#1e40af" />
+<text x="55" y="878" font-size="18">CP</text>
+<path d="M155 872L180 872" fill="none" stroke="#1e40af" />
+<text x="55" y="908" font-size="18">Q</text>
+<path d="M155 902L180 902" fill="none" stroke="#1e40af" />
+<path d="M350 870L395 870" fill="none" stroke="#1e40af" />
+<text x="405" y="856" font-size="18">rn</text>
+<rect x="180" y="960" width="170" height="105" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="194" y="990" font-size="20">NAND</text>
+<text x="55" y="988" font-size="18">J</text>
+<path d="M155 982L180 982" fill="none" stroke="#1e40af" />
+<text x="55" y="1018" font-size="18">CP</text>
+<path d="M155 1012L180 1012" fill="none" stroke="#1e40af" />
+<text x="55" y="1048" font-size="18">Q̅</text>
+<path d="M155 1042L180 1042" fill="none" stroke="#1e40af" />
+<path d="M350 1010L395 1010" fill="none" stroke="#1e40af" />
+<text x="405" y="996" font-size="18">sn</text>
+<rect x="850" y="820" width="170" height="105" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="864" y="850" font-size="20">NAND</text>
+<text x="725" y="848" font-size="18">rn</text>
+<path d="M825 842L850 842" fill="none" stroke="#1e40af" />
+<text x="725" y="878" font-size="18">Q</text>
+<path d="M825 872L850 872" fill="none" stroke="#1e40af" />
+<path d="M1020 870L1065 870" fill="none" stroke="#1e40af" />
+<text x="1075" y="856" font-size="18">Q̅</text>
+<rect x="850" y="960" width="170" height="105" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="864" y="990" font-size="20">NAND</text>
+<text x="725" y="988" font-size="18">sn</text>
+<path d="M825 982L850 982" fill="none" stroke="#1e40af" />
+<text x="725" y="1018" font-size="18">Q̅</text>
+<path d="M825 1012L850 1012" fill="none" stroke="#1e40af" />
+<path d="M1020 1010L1065 1010" fill="none" stroke="#1e40af" />
+<text x="1075" y="996" font-size="18">Q</text>
+<path d="M395 870L590 870" fill="none" stroke="#1e40af" />
+<text x="465" y="857" font-size="17">→ 右上NAND</text>
+<path d="M395 1010L590 1010" fill="none" stroke="#1e40af" />
+<text x="465" y="997" font-size="17">→ 右下NAND</text>
+<text x="660" y="1095" font-size="18">反馈：Q → 上门第二输入；Q̅ → 下门第二输入</text>
+<text x="35" y="1150" font-size="19">端名接线法：rn/sn分别连接对应同名端；反馈网Q/Q̅亦驱动JK输入门。禁止误接为Q与Q̅短路。</text>
+</g></svg>

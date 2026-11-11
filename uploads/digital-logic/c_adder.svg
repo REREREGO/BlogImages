@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420"><defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="none" stroke="#1e40af"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei,Arial" font-size="20" fill="#172554" stroke-width="2">
+<text x="30" y="35" font-size="25">半加器及两半加器构成全加器</text>
+<rect x="120" y="110" width="170" height="130" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="134" y="140" font-size="20">半加器 HA</text>
+<text x="134" y="167" font-size="20">S=A⊕B</text>
+<text x="134" y="194" font-size="20">C=AB</text>
+<text x="35" y="145" font-size="20">A</text>
+<path d="M60 140L120 140" fill="none" stroke="#1e40af" />
+<text x="35" y="200" font-size="20">B</text>
+<path d="M60 195L120 195" fill="none" stroke="#1e40af" />
+<path d="M290 140L350 140" fill="none" stroke="#1e40af" />
+<text x="360" y="145" font-size="20">S</text>
+<path d="M290 205L350 205" fill="none" stroke="#1e40af" />
+<text x="360" y="210" font-size="20">C</text>
+<rect x="460" y="100" width="170" height="120" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="474" y="130" font-size="20">HA1</text>
+<text x="474" y="157" font-size="20">s1=A⊕B</text>
+<text x="474" y="184" font-size="20">c1=AB</text>
+<rect x="770" y="100" width="170" height="120" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="784" y="130" font-size="20">HA2</text>
+<text x="784" y="157" font-size="20">S=s1⊕Cin</text>
+<text x="784" y="184" font-size="20">c2=s1·Cin</text>
+<path d="M630 130L770 130" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<text x="655" y="115" font-size="20">s1</text>
+<text x="650" y="195" font-size="20">Cin</text>
+<path d="M700 190L770 190" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<text x="405" y="135" font-size="20">A,B</text>
+<path d="M445 135L460 135" fill="none" stroke="#1e40af" />
+<path d="M940 130L1080 130" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<text x="1090" y="135" font-size="20">S</text>
+<rect x="850" y="290" width="100" height="65" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="864" y="320" font-size="20">≥1</text>
+<polyline points="630,195 670,195 670,315 850,315" fill="none" stroke="#1e40af"/>
+<polyline points="940,200 990,200 990,260 800,260 800,335 850,335" fill="none" stroke="#1e40af"/>
+<path d="M950 325L1080 325" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<text x="1085" y="330" font-size="20">Cout</text>
+<text x="465" y="385" font-size="20">进位必须经过或门：Cout=c1+c2</text>
+</g></svg>

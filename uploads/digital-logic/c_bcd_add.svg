@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="490" viewBox="0 0 1200 490"><defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="none" stroke="#1e40af"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei,Arial" font-size="20" fill="#172554" stroke-width="2">
+<text x="30" y="35" font-size="25">一位BCD加法器：二进制相加 + 条件加6</text>
+<rect x="50" y="100" width="300" height="150" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="64" y="130" font-size="20">加法器1</text>
+<text x="64" y="157" font-size="20">输入两位BCD及Cin</text>
+<text x="64" y="184" font-size="20">输出c4、s3s2s1s0</text>
+<rect x="450" y="260" width="370" height="100" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="464" y="290" font-size="20">K=c4 OR (s3 AND s2)</text>
+<text x="464" y="317" font-size="20">       OR (s3 AND s1)</text>
+<rect x="850" y="100" width="300" height="160" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="864" y="130" font-size="20">加法器2</text>
+<text x="864" y="157" font-size="20">A=s3s2s1s0</text>
+<text x="864" y="184" font-size="20">B=0,K,K,0；Cin=0</text>
+<path d="M350 150L850 150" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<polyline points="350,220 400,220 400,300 450,300" fill="none" stroke="#1e40af"/>
+<polyline points="820,300 830,300 830,230 850,230" fill="none" stroke="#1e40af"/>
+<path d="M1150 150L1180 150" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<text x="875" y="305" font-size="20">输出为BCD个位</text>
+<text x="70" y="420" font-size="20">十进制进位=K；K=1时修正加0110；输入范围0—9加0—9及进位0/1。</text>
+</g></svg>

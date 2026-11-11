@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570"><defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="none" stroke="#1e40af"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei,Arial" font-size="20" fill="#172554" stroke-width="2">
+<text x="30" y="35" font-size="25">4选1 MUX的与—或结构（低有效使能en）</text>
+<rect x="100" y="100" width="350" height="65" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="114" y="130" font-size="20">AND：¬en·¬A1·¬A0·D0</text>
+<polyline points="450,132 540,132 540,210 740,210" fill="none" stroke="#1e40af"/>
+<rect x="100" y="200" width="350" height="65" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="114" y="230" font-size="20">AND：¬en·¬A1·A0·D1</text>
+<polyline points="450,232 575,232 575,235 740,235" fill="none" stroke="#1e40af"/>
+<rect x="100" y="300" width="350" height="65" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="114" y="330" font-size="20">AND：¬en·A1·¬A0·D2</text>
+<polyline points="450,332 610,332 610,260 740,260" fill="none" stroke="#1e40af"/>
+<rect x="100" y="400" width="350" height="65" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="114" y="430" font-size="20">AND：¬en·A1·A0·D3</text>
+<polyline points="450,432 645,432 645,285 740,285" fill="none" stroke="#1e40af"/>
+<rect x="740" y="185" width="150" height="160" rx="5" fill="#eff6ff" stroke="#1e40af"/>
+<text x="754" y="215" font-size="20">OR</text>
+<text x="754" y="242" font-size="20">F=ΣmiDi</text>
+<text x="754" y="269" font-size="20">（en=0）</text>
+<path d="M890 260L1040 260" fill="none" stroke="#1e40af" marker-end="url(#ar)"/>
+<text x="1060" y="265" font-size="20">F</text>
+<text x="80" y="535" font-size="20">选择A1A0=00、01、10、11时，依次输出D0、D1、D2、D3；en=1时输出0。</text>
+</g></svg>
